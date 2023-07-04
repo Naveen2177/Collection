@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+
+.nav-item{
+    margin-top: 15px;
+}
+.d-flex{
+    margin-top: 15px;
+}
+#span i{
+    margin-top: 1px;
+    position: absolute;
+    right: 485px;
+}
+.head i{
+    position: absolute;
+    right: 390px;
+    top: 69px;
+}
+#shop{
+    right: 340px;
+    top: 69px;
+}
+.head button{
+    margin-left: 210px;
+}
+.hero{
+    background-image: url(https://i.pinimg.com/236x/1e/68/b9/1e68b90697c9cc4e26047bc358aa1337.jpg);
+}
+.herop{
+    top: 203px;
+    right: 460px;
+}
+.herop button{
+    border-radius: 18px;
+    border: none;
+    width: 100px;
+}
+.col h5{
+    position: absolute;
+    top: 660px;
+    left: 341px;
+}
+.col button{
+    position: absolute;
+    top: 695px;
+    left: 330px;
+    border-radius: 20px;
+    background-color: #e1ad04;
+    border: none;
+    padding: 5px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col p{
+    position: absolute;
+    top: 735px;
+    left: 340px;
+    font-family: fantasy;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col1 img{
+    margin-right: 45px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col1 h5{
+    position: absolute;
+    top: 660px;
+    right:506px;
 }
-
-.App-link {
-  color: #61dafb;
+.col1 p{
+    position: absolute;
+    top: 690px;
+    right: 518px;;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col1 h6{
+    position: absolute;
+    top: 730px;
+    right: 506px;
+}
+.col2 h5{
+    position: absolute;
+    top: 750px;
+    right: 60px;
+} 
+.col2 button{
+    position: absolute;
+    top: 710px;
+    right: 62px;
+}
+.col2 p{
+    position: absolute;
+    right: 70px;
+    top: 670px;
+}
+.nav2{
+    margin-top: 20px;
+}
+.nav4{
+    left: 280px;
+    position: absolute;
+    top: 2110px;
+}
+.side2{
+    position: absolute;
+    top: 2260px;
+    left: 600px;
+}
+.sid7{
+    position: absolute;
+    top: 2430px;        
+    right: 100px;
+}
+.sid8{
+    position: absolute;
+    top: 2680px;
+    left: 640px;
+}
+.mat{
+    position: absolute;
+    top: 2770px;
+    right: 230px;
+}
+.mat1{
+    position: absolute;
+    right: 100px;
+    top: 2720px;
+}
+.sid9{
+    position: absolute;
+    top: 3420px;
+    left: 10%;
+}
+.mat2{
+    position: absolute;
+    top: 36%;
+    left: 100%;
+    border-radius: 25px;
+    width: 370px;
+    border: none;
+}
+.mat3{
+    position: absolute;
+    top: 36%;
+    left: 160%;
+    border-radius: 25px;
+}
+.name{
+color: deepskyblue;
+}
+.mat5{
+margin-left: 620px;
+}
+.foot{
+    text-align: center;
 }

@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './layout/Navbar';
+import Header from './layout/Header';
+import Bnner from './layout/Bnner';
+import Catagory from './layout/Catagory';
+import Latest from './layout/LatestProduct';
+import Product from './layout/Product';
+import Shop from './layout/Shop';
+import Collection from './layout/Collection';
+import Offer from './layout/Offer';
+import Shipping from './layout/Shipping';
+import Img from './layout/Img';
+import Footer from './layout/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Navbar/>
+   <Header/>
+   <Bnner/>
+   <Catagory/>
+   <Latest/>
+   <Product/>
+   <Shop/>
+   <Collection/>
+   <Offer/>
+   <Shipping/>
+   <Img/>
+   <Footer/>
+   </>
   );
 }
 
